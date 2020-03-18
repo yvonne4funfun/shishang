@@ -13,6 +13,8 @@
 		795212BC2421CD370013DCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795212BA2421CD370013DCA2 /* Main.storyboard */; };
 		795212BE2421CD390013DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795212BD2421CD390013DCA2 /* Assets.xcassets */; };
 		795212C12421CD390013DCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795212BF2421CD390013DCA2 /* LaunchScreen.storyboard */; };
+		795212CB242202020013DCA2 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795212CA242202020013DCA2 /* crayon_1-1.ttf */; };
+		795212CD24220BEA0013DCA2 /* NaikaiFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795212CC24220BEA0013DCA2 /* NaikaiFont-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		795212BD2421CD390013DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795212C02421CD390013DCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795212C22421CD390013DCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795212CA242202020013DCA2 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		795212CC24220BEA0013DCA2 /* NaikaiFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				795212B42421CD370013DCA2 /* AppDelegate.swift */,
 				795212B62421CD370013DCA2 /* SceneDelegate.swift */,
 				795212B82421CD370013DCA2 /* ViewController.swift */,
+				795212CC24220BEA0013DCA2 /* NaikaiFont-Regular.ttf */,
+				795212CA242202020013DCA2 /* crayon_1-1.ttf */,
 				795212BA2421CD370013DCA2 /* Main.storyboard */,
 				795212BD2421CD390013DCA2 /* Assets.xcassets */,
 				795212BF2421CD390013DCA2 /* LaunchScreen.storyboard */,
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795212CB242202020013DCA2 /* crayon_1-1.ttf in Resources */,
 				795212C12421CD390013DCA2 /* LaunchScreen.storyboard in Resources */,
 				795212BE2421CD390013DCA2 /* Assets.xcassets in Resources */,
+				795212CD24220BEA0013DCA2 /* NaikaiFont-Regular.ttf in Resources */,
 				795212BC2421CD370013DCA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKYYFQH356;
 				INFOPLIST_FILE = shishang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKYYFQH356;
 				INFOPLIST_FILE = shishang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
